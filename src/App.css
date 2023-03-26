@@ -38,8 +38,12 @@
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .btn{
-  background-image: url("/src/Components/images/btnbg2.png");
+  /* background-image: url("/src/Components/images/btnbg2.png"); */
   background-size: contain;
+}
+.tagline{
+  display: flex;
+  justify-content: space-between;
 }
 
 @media (prefers-reduced-motion: no-preference) {
